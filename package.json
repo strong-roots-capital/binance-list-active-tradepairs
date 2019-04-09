@@ -1,6 +1,6 @@
 {
   "name": "@strong-roots-capital/binance-list-active-tradepairs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "List tradepairs actively trading on Binance",
   "main": "dist/binance-list-active-tradepairs.js",
   "types": "dist/binance-list-active-tradepairs.d.ts",
