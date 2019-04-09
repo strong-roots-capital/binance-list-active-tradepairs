@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amchelle/binance-list-active-tradepairs.git"
+    "url": "git+https://github.com/strong-roots-capital/binance-list-active-tradepairs.git"
   },
   "keywords": [
     "active",
@@ -37,9 +37,9 @@
   "author": "Amchelle Clendenin <amchelle.clendenin@utexas.edu> (https://github.com/amchelle)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amchelle/binance-list-active-tradepairs/issues"
+    "url": "https://github.com/strong-roots-capital/binance-list-active-tradepairs/issues"
   },
-  "homepage": "https://github.com/amchelle/binance-list-active-tradepairs",
+  "homepage": "https://github.com/strong-roots-capital/binance-list-active-tradepairs",
   "dependencies": {
     "binance-api-node": "^0.8.21"
   },
