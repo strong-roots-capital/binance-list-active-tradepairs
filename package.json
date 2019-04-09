@@ -40,7 +40,9 @@
     "url": "https://github.com/amchelle/binance-list-active-tradepairs/issues"
   },
   "homepage": "https://github.com/amchelle/binance-list-active-tradepairs",
-  "dependencies": {},
+  "dependencies": {
+    "binance-api-node": "^0.8.21"
+  },
   "devDependencies": {
     "@types/node": "^10.12.18",
     "ava": "^1.0.0",

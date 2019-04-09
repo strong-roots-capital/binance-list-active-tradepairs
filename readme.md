@@ -12,13 +12,21 @@ npm install @strong-roots-capital/binance-list-active-tradepairs
 
 ```typescript
 import { binanceListActiveTradepairs } from '@strong-roots-capital/binance-list-active-tradepairs'
-// TODO: describe usage
+
+(async () => {
+    console.log(await binanceListActiveTradepairs())
+        //=> [ 'XRPETH',
+        // 'MODBTC',
+        // 'MODETH',
+        // 'ENJBTC',
+        // 'ENJETH',
+        // 'STORJBTC',
+        // 'STORJETH',
+        // 'BNBUSDT',
+        // 'VENBNB' ]
+})
 ```
 
 ## Related
 
-TODO
-
-## Acknowledgments
-
-TODO
+- [binance-api-node](https://github.com/binance-exchange/binance-api-node)

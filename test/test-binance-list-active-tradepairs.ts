@@ -6,8 +6,14 @@ import test from 'ava'
 
 import binanceListActiveTradepairs from '../src/binance-list-active-tradepairs'
 
-test('test ava configuration', t => {
+
+test('should return a Promise of string[] of active tradepairs', async t => {
+
+    const active = await binanceListActiveTradepairs()
+       for (const tradepair of active) {
+        if ('' === tradepair) {
+            t.fail()
+        }
+    }
     t.pass()
 })
-
-// TODO: write tests
