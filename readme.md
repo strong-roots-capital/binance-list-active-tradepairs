@@ -11,7 +11,7 @@ npm install @strong-roots-capital/binance-list-active-tradepairs
 ## Use
 
 ```typescript
-import { binanceListActiveTradepairs } from '@strong-roots-capital/binance-list-active-tradepairs'
+import binanceListActiveTradepairs from '@strong-roots-capital/binance-list-active-tradepairs'
 
 (async () => {
     console.log(await binanceListActiveTradepairs())
